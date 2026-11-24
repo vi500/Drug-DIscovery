@@ -1,0 +1,41 @@
+{
+  "run_name": "test_run",
+  "timestamp": "20261023_003101",
+  "seed": 42,
+  "runtime_seconds": 92.519,
+  "archived_files": [
+    "validated_candidates.csv",
+    "invalid_smiles.csv",
+    "duplicate_smiles.csv",
+    "drug_likeness.csv",
+    "admet_ai_predictions.csv",
+    "dnn_candidate_predictions.csv",
+    "safety_model_comparison.csv",
+    "safety_scores.csv",
+    "sensitivity_analysis.csv",
+    "reward_ranking.csv",
+    "recommended_shortlist.csv"
+  ],
+  "archived_models": [
+    "multitask_safety_dnn.pt",
+    "multitask_safety_scaler.joblib",
+    "multitask_safety_dnn_config.json"
+  ],
+  "candidate_count": 10,
+  "mean_safety_score": 0.7702894953644666,
+  "min_safety_score": 0.736252671850947,
+  "max_safety_score": 0.8060954984618653,
+  "hard_fail_count": 0,
+  "safety_status_counts": {
+    "PASS": 10
+  },
+  "ranked_count": 10,
+  "mean_reward": 0.6974247476822333,
+  "max_reward": 0.8711288473217149,
+  "missing_affinity_count": 0,
+  "recommended_count": 10,
+  "torch_version": "2.14.1+cpu",
+  "rdkit_version": "2026.03.6",
+  "admet_ai_version": "2.0.1",
+  "pandas_version": "3.0.6"
+}

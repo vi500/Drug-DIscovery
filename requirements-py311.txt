@@ -1,0 +1,13 @@
+
+numpy>=1.26,<3
+pandas>=2.2,<3
+scikit-learn>=1.5,<2
+scipy>=1.13,<2
+joblib>=1.4,<2
+rdkit>=2025.3
+torch>=2.5,<3
+PyTDC>=1.1.14,<2
+admet-ai==2.0.1
+pytest>=8,<9
+
+# ADMET-AI v2 is documented by its project for current Python releases; Python 3.11 is the recommended compatibility target for this package.

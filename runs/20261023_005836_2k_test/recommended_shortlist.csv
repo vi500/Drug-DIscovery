@@ -1,0 +1,2 @@
+candidate_id,smiles,safety_score,safety_status,hard_fail,hard_fail_reason,affinity_norm,affinity_missing,reward,rank
+lig_0001,Cc1cc(C)cc(C)c1,0.7703701475764797,PASS,False,,0.7051,False,0.7377350737882398,1

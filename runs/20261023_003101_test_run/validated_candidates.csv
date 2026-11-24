@@ -1,0 +1,11 @@
+candidate_id,smiles,canonical_smiles
+lig_28,CCO,CCO
+lig_62,CC(=O)O,CC(=O)O
+lig_43,c1ccccc1,c1ccccc1
+lig_36,CCN,CCN
+lig_51,CCOC,CCOC
+lig_88,CC(C)O,CC(C)O
+lig_25,CC(C)C,CC(C)C
+lig_79,CCCO,CCCO
+lig_6,CC(C)CO,CC(C)CO
+lig_0,CCCN,CCCN

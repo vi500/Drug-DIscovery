@@ -1,0 +1,3 @@
+python code\08_run_pipeline.py --ligands data\module2_fake_10000_candidates.csv --affinity data\module2_fake_10000_affinity.csv --name 10k_test --seed 42
+cd /d "D:\Major project\safety_module"
+.venv\Scripts\activate

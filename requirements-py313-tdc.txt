@@ -1,0 +1,3 @@
+# Install PyTDC 1.1.15 without enforcing its legacy numpy<2 metadata.
+# Run AFTER requirements.txt succeeds:
+# python -m pip install --no-deps PyTDC==1.1.15

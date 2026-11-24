@@ -1,0 +1,44 @@
+{
+  "input_dim": 2056,
+  "endpoints": [
+    "AMES",
+    "hERG",
+    "DILI",
+    "ClinTox",
+    "Carcinogens",
+    "BBB",
+    "HIA",
+    "Solubility"
+  ],
+  "hidden_1": 512,
+  "hidden_2": 256,
+  "dropout": 0.3,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "morgan_radius": 2,
+  "morgan_bits": 2048,
+  "use_rdkit_descriptors": true,
+  "descriptor_names": [
+    "MolWt",
+    "MolLogP",
+    "NumHDonors",
+    "NumHAcceptors",
+    "NumRotatableBonds",
+    "TPSA",
+    "MolMR",
+    "FractionCSP3"
+  ],
+  "seed": 42,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.9765990078449249,
+      "val_loss": 0.8233965635299683
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.4394278886720417,
+      "val_loss": 0.7213203310966492
+    }
+  ]
+}

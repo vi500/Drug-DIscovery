@@ -1,0 +1,11 @@
+candidate_id,smiles,affinity_norm
+lig_28,CCO,0.9685
+lig_62,CC(=O)O,0.9428
+lig_43,c1ccccc1,0.6860
+lig_36,CCN,0.6326
+lig_51,CCOC,0.5355
+lig_88,CC(C)O,0.5275
+lig_25,CC(C)C,0.5135
+lig_79,CCCO,0.4979
+lig_6,CC(C)CO,0.4936
+lig_0,CCCN,0.4477
